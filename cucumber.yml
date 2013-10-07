@@ -1,5 +1,5 @@
-default: PLATFORM=chrome  --format json --no-source --color
-iphone: PLATFORM=iPhone --format json --format html --out=reports/cucumber_ios.html
-android: PLATFORM=android --format json --format html --out=reports/cucumber_android.html
-chrome: PLATFORM=chrome --format json --format html --out=reports/cucumber_chrome.html
-ipad: PLATFORM=iPad --format json --format html --out=reports/cucumber_ipad.html
+default: PLATFORM=chrome  --no-source --color
+iphone: PLATFORM=iPhone --format html --out=reports/cucumber_ios.html
+android: PLATFORM=android --format html --out=reports/cucumber_android.html
+chrome: PLATFORM=chrome --format html --out=reports/cucumber_chrome.html
+ipad: PLATFORM=iPad --format html --out=reports/cucumber_ipad.html
