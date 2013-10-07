@@ -66,7 +66,7 @@ module Browser
 		'device' => 'Android'
 		}
 
-		server_url = "http://localhost:4723/wd/hub/"
+		server_url = "http://localhost:4726/wd/hub/"
 		driver = Selenium::WebDriver.for(:remote, :desired_capabilities => capabilities, :url => server_url)#, :profile => profile)
 		browser = Watir::Browser.new driver
 		browser.driver.manage.timeouts.implicit_wait = 30
